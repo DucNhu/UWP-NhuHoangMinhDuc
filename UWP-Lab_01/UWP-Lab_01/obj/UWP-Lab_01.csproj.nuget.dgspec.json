@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Pc\\Documents\\GitHub\\UWP-NhuHoangMinhDuc\\UWP-Lab_01\\UWP-Lab_01\\UWP-Lab_01.csproj": {}
+    "C:\\Users\\Pc\\Documents\\GitHub\\UWP-NhuHoangMinhDuc\\UWP-lab_01\\UWP-Lab_01\\UWP-Lab_01.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Pc\\Documents\\GitHub\\UWP-NhuHoangMinhDuc\\UWP-Lab_01\\UWP-Lab_01\\UWP-Lab_01.csproj": {
+    "C:\\Users\\Pc\\Documents\\GitHub\\UWP-NhuHoangMinhDuc\\UWP-lab_01\\UWP-Lab_01\\UWP-Lab_01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pc\\Documents\\GitHub\\UWP-NhuHoangMinhDuc\\UWP-Lab_01\\UWP-Lab_01\\UWP-Lab_01.csproj",
+        "projectUniqueName": "C:\\Users\\Pc\\Documents\\GitHub\\UWP-NhuHoangMinhDuc\\UWP-lab_01\\UWP-Lab_01\\UWP-Lab_01.csproj",
         "projectName": "UWP-Lab_01",
-        "projectPath": "C:\\Users\\Pc\\Documents\\GitHub\\UWP-NhuHoangMinhDuc\\UWP-Lab_01\\UWP-Lab_01\\UWP-Lab_01.csproj",
+        "projectPath": "C:\\Users\\Pc\\Documents\\GitHub\\UWP-NhuHoangMinhDuc\\UWP-lab_01\\UWP-Lab_01\\UWP-Lab_01.csproj",
         "packagesPath": "C:\\Users\\Pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pc\\Documents\\GitHub\\UWP-NhuHoangMinhDuc\\UWP-Lab_01\\UWP-Lab_01\\obj\\",
+        "outputPath": "C:\\Users\\Pc\\Documents\\GitHub\\UWP-NhuHoangMinhDuc\\UWP-lab_01\\UWP-Lab_01\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [

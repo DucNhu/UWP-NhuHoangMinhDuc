@@ -6,10 +6,13 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" FontStyle="Normal" FontSize="48" Foreground="{x:Null}" VerticalAlignment="Center" HorizontalAlignment="Center">
 
-    <Grid>
-        <Button Content="Hello World" Margin="739,0,0,0" Click="Button_Click"/>
+    <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
+        <TextBox x:Name="Inpbl"  HorizontalAlignment="Left" Margin="252,500,0,0" Text="Enter Your Name" TextWrapping="Wrap" VerticalAlignment="Top" Height="38" Width="424" TextChanged="TextBox_TextChanged"/>
+
+        <Button Content="Submit" Margin="400,384,0,511" VerticalAlignment="Stretch" Click="Button_Click_1" Height="63" Width="149" RenderTransformOrigin="0.492,-3.658"/>
+        <TextBlock x:Name="tbl" HorizontalAlignment="Left" Margin="359,850,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" SelectionChanged="TextBlock_SelectionChanged_1"/>
 
     </Grid>
 </Page>

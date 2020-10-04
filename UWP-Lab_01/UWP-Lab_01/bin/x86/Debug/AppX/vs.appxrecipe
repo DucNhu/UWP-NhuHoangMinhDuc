@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>11a0569e-e56f-45e7-b1b0-96f1b24a4972</PackageIdentityName>
     <PackageIdentityPublisher>CN=Pc</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Pc\Documents\GitHub\UWP-NhuHoangMinhDuc\UWP-Lab_01\UWP-Lab_01\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Pc\Documents\GitHub\UWP-NhuHoangMinhDuc\UWP-lab_01\UWP-Lab_01\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Pc\Documents\GitHub\UWP-NhuHoangMinhDuc\UWP-Lab_01\UWP-Lab_01\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Pc\Documents\GitHub\UWP-NhuHoangMinhDuc\UWP-lab_01\UWP-Lab_01\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>1B40B4D77CB8F14290A2BADAC29B1C88DD119738B593058D71CAF86A0E56CFDA</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>11a0569e-e56f-45e7-b1b0-96f1b24a4972_1.0.0.0_x86__gm3wrxddbnsmw</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>11a0569e-e56f-45e7-b1b0-96f1b24a4972_gm3wrxddbnsmw!App</RegisteredUserModeAppID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Pc\Documents\GitHub\UWP-NhuHoangMinhDuc\UWP-Lab_01\UWP-Lab_01\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Pc\Documents\GitHub\UWP-NhuHoangMinhDuc\UWP-lab_01\UWP-Lab_01\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-02T02:42:44.844</Modified>
+      <Modified>2020-10-03T02:46:53.506</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Pc\Documents\GitHub\UWP-NhuHoangMinhDuc\UWP-Lab_01\UWP-Lab_01\bin\x86\Debug\UWP-Lab_01.exe">
+    <AppxPackagedFile Include="C:\Users\Pc\Documents\GitHub\UWP-NhuHoangMinhDuc\UWP-lab_01\UWP-Lab_01\bin\x86\Debug\UWP-Lab_01.exe">
       <PackagePath>entrypoint\UWP-Lab_01.exe</PackagePath>
-      <Modified>2020-10-02T02:42:44.173</Modified>
+      <Modified>2020-10-03T02:46:52.919</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -46,67 +46,67 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T11:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Pc\Documents\GitHub\UWP-NhuHoangMinhDuc\UWP-Lab_01\UWP-Lab_01\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Pc\Documents\GitHub\UWP-NhuHoangMinhDuc\UWP-lab_01\UWP-Lab_01\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2020-10-02T02:37:36.071</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Pc\Documents\GitHub\UWP-NhuHoangMinhDuc\UWP-Lab_01\UWP-Lab_01\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Pc\Documents\GitHub\UWP-NhuHoangMinhDuc\UWP-lab_01\UWP-Lab_01\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2020-10-01T02:10:55.543</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Pc\Documents\GitHub\UWP-NhuHoangMinhDuc\UWP-Lab_01\UWP-Lab_01\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Pc\Documents\GitHub\UWP-NhuHoangMinhDuc\UWP-lab_01\UWP-Lab_01\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-10-01T02:10:55.549</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Pc\Documents\GitHub\UWP-NhuHoangMinhDuc\UWP-Lab_01\UWP-Lab_01\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Pc\Documents\GitHub\UWP-NhuHoangMinhDuc\UWP-lab_01\UWP-Lab_01\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-10-01T02:10:55.551</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Pc\Documents\GitHub\UWP-NhuHoangMinhDuc\UWP-Lab_01\UWP-Lab_01\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Pc\Documents\GitHub\UWP-NhuHoangMinhDuc\UWP-lab_01\UWP-Lab_01\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-10-01T02:10:55.553</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Pc\Documents\GitHub\UWP-NhuHoangMinhDuc\UWP-Lab_01\UWP-Lab_01\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Pc\Documents\GitHub\UWP-NhuHoangMinhDuc\UWP-lab_01\UWP-Lab_01\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-10-01T02:10:55.555</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Pc\Documents\GitHub\UWP-NhuHoangMinhDuc\UWP-Lab_01\UWP-Lab_01\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Pc\Documents\GitHub\UWP-NhuHoangMinhDuc\UWP-lab_01\UWP-Lab_01\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-10-01T02:10:55.556</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Pc\Documents\GitHub\UWP-NhuHoangMinhDuc\UWP-Lab_01\UWP-Lab_01\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Pc\Documents\GitHub\UWP-NhuHoangMinhDuc\UWP-lab_01\UWP-Lab_01\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-10-01T02:10:55.558</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Pc\Documents\GitHub\UWP-NhuHoangMinhDuc\UWP-Lab_01\UWP-Lab_01\bin\x86\Debug\UWP-Lab_01.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Pc\Documents\GitHub\UWP-NhuHoangMinhDuc\UWP-lab_01\UWP-Lab_01\bin\x86\Debug\UWP-Lab_01.xr.xml">
       <PackagePath>UWP-Lab_01.xr.xml</PackagePath>
-      <Modified>2020-10-02T02:42:43.904</Modified>
+      <Modified>2020-10-03T02:46:52.715</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Pc\Documents\GitHub\UWP-NhuHoangMinhDuc\UWP-Lab_01\UWP-Lab_01\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Pc\Documents\GitHub\UWP-NhuHoangMinhDuc\UWP-lab_01\UWP-Lab_01\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-10-02T02:42:43.910</Modified>
+      <Modified>2020-10-03T02:37:40.739</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Pc\Documents\GitHub\UWP-NhuHoangMinhDuc\UWP-Lab_01\UWP-Lab_01\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Pc\Documents\GitHub\UWP-NhuHoangMinhDuc\UWP-lab_01\UWP-Lab_01\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-10-02T02:42:43.910</Modified>
+      <Modified>2020-10-03T02:46:52.720</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2019-03-18T10:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Pc\Documents\GitHub\UWP-NhuHoangMinhDuc\UWP-Lab_01\UWP-Lab_01\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Pc\Documents\GitHub\UWP-NhuHoangMinhDuc\UWP-lab_01\UWP-Lab_01\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <Modified>2020-10-02T02:39:47.899</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Pc\Documents\GitHub\UWP-NhuHoangMinhDuc\UWP-Lab_01\UWP-Lab_01\bin\x86\Debug\Core\UWP-Lab_01.exe">
+    <AppxPackagedFile Include="C:\Users\Pc\Documents\GitHub\UWP-NhuHoangMinhDuc\UWP-lab_01\UWP-Lab_01\bin\x86\Debug\Core\UWP-Lab_01.exe">
       <PackagePath>UWP-Lab_01.exe</PackagePath>
-      <Modified>2020-10-02T02:42:44.837</Modified>
+      <Modified>2020-10-03T02:46:53.499</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -1,1 +1,1 @@
-C:\Users\Pc\Documents\GitHub\UWP-NhuHoangMinhDuc\UWP-Lab_01\UWP-Lab_01\UWP-Lab_01.csproj;x86
+C:\Users\Pc\Documents\GitHub\UWP-NhuHoangMinhDuc\UWP-lab_01\UWP-Lab_01\UWP-Lab_01.csproj;x86
