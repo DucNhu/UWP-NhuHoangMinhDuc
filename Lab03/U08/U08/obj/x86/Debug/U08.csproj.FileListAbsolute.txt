@@ -1,0 +1,9 @@
+C:\Users\Pc\Documents\GitHub\UWP-NhuHoangMinhDuc\Lab03\U08\U08\obj\x86\Debug\U08.csprojAssemblyReference.cache
+C:\Users\Pc\Documents\GitHub\UWP-NhuHoangMinhDuc\Lab03\U08\U08\obj\x86\Debug\App.g.i.cs
+C:\Users\Pc\Documents\GitHub\UWP-NhuHoangMinhDuc\Lab03\U08\U08\obj\x86\Debug\App.g.cs
+C:\Users\Pc\Documents\GitHub\UWP-NhuHoangMinhDuc\Lab03\U08\U08\obj\x86\Debug\MainPage.g.i.cs
+C:\Users\Pc\Documents\GitHub\UWP-NhuHoangMinhDuc\Lab03\U08\U08\obj\x86\Debug\MainPage.g.cs
+C:\Users\Pc\Documents\GitHub\UWP-NhuHoangMinhDuc\Lab03\U08\U08\obj\x86\Debug\App.xaml
+C:\Users\Pc\Documents\GitHub\UWP-NhuHoangMinhDuc\Lab03\U08\U08\obj\x86\Debug\MainPage.xaml
+C:\Users\Pc\Documents\GitHub\UWP-NhuHoangMinhDuc\Lab03\U08\U08\obj\x86\Debug\App.xbf
+C:\Users\Pc\Documents\GitHub\UWP-NhuHoangMinhDuc\Lab03\U08\U08\obj\x86\Debug\MainPage.xbf
