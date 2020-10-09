@@ -23,16 +23,15 @@
             <ColumnDefinition Width="1*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <TextBlock Text="ACSME Sales Corp" FontSize="48px" Grid.ColumnSpan="3" Margin="0, 0, 0, 20"></TextBlock>
-        
-        <TextBlock Text="First Name:" Grid.Row="1" VerticalAlignment="Center"></TextBlock>
+        <TextBlock Text="First Name:" Grid.Row="1" VerticalAlignment="Center"/>
         <TextBox Text="" Grid.Column="1" Grid.Row="1" Margin="0, 0, 0, 10"></TextBox>
 
         <TextBlock Text="Last Name:" Grid.Row="2" VerticalAlignment="Center"></TextBlock>
         <TextBox Text="" Grid.Column="1" Grid.Row="2" Margin="0, 0, 0, 10"></TextBox>
 
-        <TextBlock Text="Mail:" Grid.Row="3" VerticalAlignment="Center"></TextBlock>
-        <TextBox Text="" Grid.Column="1" Grid.Row="3" Margin="0, 0, 0, 10"></TextBox>
+        <TextBlock Text="Mail:" Grid.Row="3" VerticalAlignment="Center"/>
+        <TextBox Text="" Grid.Column="1" Grid.Row="3" Margin="0, 0, 0, 10"/>
 
-        <Button Content="Save" Grid.Column="1" Grid.Row="4"></Button>
+        <Button Content="Save" Grid.Column="1" Grid.Row="4"/>
     </Grid>
 </Page>

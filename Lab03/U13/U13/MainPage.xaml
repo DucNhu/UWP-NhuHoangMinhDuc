@@ -10,24 +10,16 @@
 
     <StackPanel Margin="10, 20, 0, 0">
 
-                <TextBlock Text="Lorem Ipsum" FontSize="48" Margin="0,0,0,20" />
-                <StackPanel Orientation="Horizontal">
-                    <TextBlock Width="250" TextWrapping="Wrap" Margin="0,0,20,0">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut illo repudiandae pariatur iure, cum debitis impedit
-                    quaerat suscipit minus molestiae explicabo 
-                    odio voluptates voluptatum doloribus, nam eaque? Doloremque, laudantium.
-                    </TextBlock>
-            <TextBlock Width="500" TextWrapping="Wrap" Margin="0,0,20,0">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut illo repudiandae pariatur iure, cum debitis impedit
-                    quaerat suscipit minus molestiae explicabo 
-                    odio voluptates voluptatum doloribus, nam eaque? Doloremque, laudantium.
-                    </TextBlock>
-               
+        <TextBlock Text="Lorem Ipsum" FontSize="48" Margin="0,0,0,20" />
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Width="250" TextWrapping="Wrap"><Run Text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut illo repudiandae pariatur iure, cum debitis impedit quaerat suscipit minus molestiae explicabo odio voluptates voluptatum doloribus, nam eaque? Doloremque, laudantium."/></TextBlock>
+            <TextBlock Width="500" TextWrapping="Wrap" Margin="0,0,20,0"><Run Text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut illo repudiandae pariatur iure, cum debitis impedit quaerat suscipit minus molestiae explicabo odio voluptates voluptatum doloribus, nam eaque? Doloremque, laudantium."/></TextBlock>
+
             <StackPanel Orientation="Horizontal">
-                <Rectangle Fill="Blue" Width="200" Height="200" VerticalAlignment="Top"></Rectangle>
+                <Rectangle Fill="Blue" Width="200" Height="200" VerticalAlignment="Top"/>
                 <StackPanel>
-                    <Rectangle Fill="Red" Width="100" Height="100"></Rectangle>
-                    <Rectangle Fill="Yellow" Width="100" Height="100"></Rectangle>
+                    <Rectangle Fill="Red" Width="100" Height="100"/>
+                    <Rectangle Fill="Yellow" Width="100" Height="100"/>
                 </StackPanel>
             </StackPanel>
         </StackPanel>
