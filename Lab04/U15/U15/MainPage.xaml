@@ -56,7 +56,6 @@
             </StackPanel>
         </Grid>
 
-
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="auto"></RowDefinition>

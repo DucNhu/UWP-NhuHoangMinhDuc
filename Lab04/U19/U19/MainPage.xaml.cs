@@ -25,7 +25,7 @@ namespace U19
         public MainPage()
         {
             this.InitializeComponent();
-            Myframe.Navigate(typeof(Page));
+            Myframe.Navigate(typeof(Page1));
         }
 
         private void BackButton_Click(object sender, RoutedEventArgs e)

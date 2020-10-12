@@ -10,10 +10,11 @@
 
     <StackPanel>
         <StackPanel Orientation="Horizontal">
-            <TextBlock FontSize="48" Text="Page" />
-            <HyperlinkButton Content="Go to Page 2" Click="HyperlinkButton_Click" />
-            <HyperlinkButton Content="Go to Microsoft.com" NavigateUri="x" />
+            <Button Margin="0,0,20,0" Content="Home"></Button>
+            <Button Margin="0,0,20,0" Content="Back"></Button>
+            <Button Margin="0,0,20,0" Content="Forward"></Button>
         </StackPanel>
         <Frame Name="Myframe"></Frame>
+       
     </StackPanel>
 </Page>
