@@ -27,7 +27,9 @@ namespace U31
         {
             this.InitializeComponent();
         }
-
+        private string _roast;
+        private string _Cream;
+        private string _Sweetener;
         private void Roast_Click(object sender, RoutedEventArgs e)
         {
             var Slt = (MenuFlyoutItem)sender;
@@ -58,12 +60,22 @@ namespace U31
             ResultextBlock.Text = _roast;
             if (_Cream == "None" && String.IsNullOrEmpty(_Cream))
             {
-                ResultextBlock.Text += " +"; _Cream;
+                ResultextBlock.Text += " +"+ _Cream;
             }
             if (_Sweetener == "None" &&  !String.IsNullOrEmpty(_Sweetener))
             {
-                ResultextBlock.Text += " +"; _Sweetener;
+                ResultextBlock.Text += " +"+ _Sweetener;
             }
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

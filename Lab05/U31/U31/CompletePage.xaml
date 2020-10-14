@@ -14,6 +14,6 @@
             <RowDefinition Height="Auto"></RowDefinition>
         </Grid.RowDefinitions>
         <Image Style="{StaticResource WhitelogoStyle}"></Image>
-        <Image Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" Source="https://cdn.vox-cdn.com/thumbor/JgnQMCV8wA6WPD_9sL_gvnLHVz0=/25x0:615x393/920x613/filters:focal(25x0:615x393):format(webp)/cdn.vox-cdn.com/assets/1006059/stockticker.png"
+        <Image Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" Source="https://cdn.vox-cdn.com/thumbor/JgnQMCV8wA6WPD_9sL_gvnLHVz0=/25x0:615x393/920x613/filters:focal(25x0:615x393):format(webp)/cdn.vox-cdn.com/assets/1006059/stockticker.png"></Image>
     </Grid>
 </Page>

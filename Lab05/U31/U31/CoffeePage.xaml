@@ -30,8 +30,8 @@
         <Button Content="Roast" Style="{StaticResource FlyoutButtonStyle}">
             <Button.Flyout>
                 <MenuFlyout>
-                    <MenuFlyoutItem Text="None" Click="Roast_Click"></MenuFlyoutItem>
-                    <MenuFlyoutItem Text="Dark" Click="Roast_Click"></MenuFlyoutItem>
+                    <!--<MenuFlyoutItem Text="None" Click="Roast_Click"></MenuFlyoutItem>
+                    <MenuFlyoutItem Text="Dark" Click="Roast_Click"></MenuFlyoutItem>-->
                     <MenuFlyoutItem Text="Medium" Click="Roast_Click"></MenuFlyoutItem>
                 </MenuFlyout>
             </Button.Flyout>
@@ -39,7 +39,7 @@
         <Button Content="Sweetener" Style="{StaticResource FlyoutButtonStyle}" Click="Button_Click">
             <Button.Flyout>
                 <MenuFlyout>
-                    <MenuFlyoutItem Text="None" Click="Sweetener_Click"></MenuFlyoutItem>
+                    <!--<MenuFlyoutItem Text="None" Click="Sweetener_Click"></MenuFlyoutItem>-->
                     <MenuFlyoutItem Text="Sugar" Click="Sweetener_Click"></MenuFlyoutItem>
                 </MenuFlyout>
             </Button.Flyout>
@@ -47,8 +47,8 @@
         <Button Content="Cream" Style="{StaticResource FlyoutButtonStyle}" Click="Button_Click_1">
             <Button.Flyout>
                 <MenuFlyout>
-                    <MenuFlyoutItem Text="None" Click="Cream_Click"></MenuFlyoutItem>
-                    <MenuFlyoutItem Text="2% Milk" Click="Cream_Click"></MenuFlyoutItem>
+                    <!--<MenuFlyoutItem Text="None" Click="Cream_Click"></MenuFlyoutItem>
+                    <MenuFlyoutItem Text="2% Milk" Click="Cream_Click"></MenuFlyoutItem>-->
                     <MenuFlyoutItem Text="Whole Milk" Click="Cream_Click"></MenuFlyoutItem>
                 </MenuFlyout>
             </Button.Flyout>

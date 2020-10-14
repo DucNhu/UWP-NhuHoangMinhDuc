@@ -47,5 +47,10 @@ namespace U31
         {
             Myfr.Navigate(typeof(CompletePage));
         }
+
+        private void TextBlock_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
