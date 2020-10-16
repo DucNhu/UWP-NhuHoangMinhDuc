@@ -11,6 +11,7 @@
         <Style TargetType="Button" x:Key="FlyoutButtonStyle">
             <Setter Property="Margin" Value="10"></Setter>
             <Setter Property="Foreground" Value="White"></Setter>
+            
         </Style>
         <Style TargetType="TextBlock" x:Key="LabeltextBlockStyle">
             <Setter Property="FontSize" Value="18"></Setter>
@@ -26,8 +27,8 @@
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
         <Image Style="{StaticResource WhitelogoStyle}"></Image>
-        <StackPanel Orientation="Horizontal" Grid.Row="1" HorizontalAlignment="Center"></StackPanel>
-        <Button Content="Roast" Style="{StaticResource FlyoutButtonStyle}">
+        <StackPanel Orientation="Horizontal" Grid.Row="1" HorizontalAlignment="Center">
+        <Button Content="Roast" Style="{StaticResource FlyoutButtonStyle}" Click="Button_Click_2">
             <Button.Flyout>
                 <MenuFlyout>
                     <!--<MenuFlyoutItem Text="None" Click="Roast_Click"></MenuFlyoutItem>
@@ -53,6 +54,7 @@
                 </MenuFlyout>
             </Button.Flyout>
         </Button>
+        </StackPanel>
         <StackPanel Orientation="Horizontal" Grid.Row="2">
             <TextBlock Text="Coffee:" Style="{StaticResource LabeltextBlockStyle}"></TextBlock>
             <TextBlock Name="ResultextBlock" Style="{StaticResource LabeltextBlockStyle}"></TextBlock>

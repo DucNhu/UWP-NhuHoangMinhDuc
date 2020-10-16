@@ -11,6 +11,7 @@
         <Style TargetType="Button" x:Key="FlyoutButtonStyle">
             <Setter Property="Margin" Value="10"></Setter>
             <Setter Property="Foreground" Value="White"></Setter>
+            
         </Style>
         <Style TargetType="TextBlock" x:Key="LabeltextBlockStyle">
             <Setter Property="FontSize" Value="18"></Setter>
@@ -26,36 +27,37 @@
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
         <Image Style="{StaticResource WhitelogoStyle}"></Image>
-        <StackPanel Orientation="Horizontal" Grid.Row="1" HorizontalAlignment="Center"></StackPanel>
-        <Button Content="Roast" Style="{StaticResource FlyoutButtonStyle}">
+        <StackPanel Orientation="Horizontal" Grid.Row="1" HorizontalAlignment="Center">
+        <Button x:ConnectionId='3' Content="Roast" Style="{StaticResource FlyoutButtonStyle}"                       >
             <Button.Flyout>
                 <MenuFlyout>
                     <!--<MenuFlyoutItem Text="None" Click="Roast_Click"></MenuFlyoutItem>
                     <MenuFlyoutItem Text="Dark" Click="Roast_Click"></MenuFlyoutItem>-->
-                    <MenuFlyoutItem x:ConnectionId='7' Text="Medium"                    ></MenuFlyoutItem>
+                    <MenuFlyoutItem x:ConnectionId='8' Text="Medium"                    ></MenuFlyoutItem>
                 </MenuFlyout>
             </Button.Flyout>
         </Button>
-        <Button x:ConnectionId='2' Content="Sweetener" Style="{StaticResource FlyoutButtonStyle}"                     >
+        <Button x:ConnectionId='4' Content="Sweetener" Style="{StaticResource FlyoutButtonStyle}"                     >
             <Button.Flyout>
                 <MenuFlyout>
                     <!--<MenuFlyoutItem Text="None" Click="Sweetener_Click"></MenuFlyoutItem>-->
-                    <MenuFlyoutItem x:ConnectionId='6' Text="Sugar"                        ></MenuFlyoutItem>
+                    <MenuFlyoutItem x:ConnectionId='7' Text="Sugar"                        ></MenuFlyoutItem>
                 </MenuFlyout>
             </Button.Flyout>
         </Button>
-        <Button x:ConnectionId='3' Content="Cream" Style="{StaticResource FlyoutButtonStyle}"                       >
+        <Button x:ConnectionId='5' Content="Cream" Style="{StaticResource FlyoutButtonStyle}"                       >
             <Button.Flyout>
                 <MenuFlyout>
                     <!--<MenuFlyoutItem Text="None" Click="Cream_Click"></MenuFlyoutItem>
                     <MenuFlyoutItem Text="2% Milk" Click="Cream_Click"></MenuFlyoutItem>-->
-                    <MenuFlyoutItem x:ConnectionId='5' Text="Whole Milk"                    ></MenuFlyoutItem>
+                    <MenuFlyoutItem x:ConnectionId='6' Text="Whole Milk"                    ></MenuFlyoutItem>
                 </MenuFlyout>
             </Button.Flyout>
         </Button>
+        </StackPanel>
         <StackPanel Orientation="Horizontal" Grid.Row="2">
             <TextBlock Text="Coffee:" Style="{StaticResource LabeltextBlockStyle}"></TextBlock>
-            <TextBlock x:ConnectionId='4' Name="ResultextBlock" Style="{StaticResource LabeltextBlockStyle}"></TextBlock>
+            <TextBlock x:ConnectionId='2' Name="ResultextBlock" Style="{StaticResource LabeltextBlockStyle}"></TextBlock>
         </StackPanel>
     </Grid>
 </Page>

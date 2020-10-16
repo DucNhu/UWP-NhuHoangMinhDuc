@@ -79,7 +79,7 @@
                 <ColumnDefinition Width="1*"></ColumnDefinition>
             </Grid.ColumnDefinitions>
             <Frame Name="Myfr"></Frame>
-            <Image Source="Assets/cook.png"></Image>
+            <Image Source="Assets/Cook.jpg" Grid.Column="1"></Image>
         </Grid>
     </Grid>
 </Page>
