@@ -34,12 +34,12 @@
         </VisualStateManager.VisualStateGroups>-->
 
         
-        <StackPanel Orientation="Horizontal"
+        <StackPanel 
                     Margin="0,10,0,0" 
-                    HorizontalAlignment="Center" Width="100">
-            <TextBlock x:ConnectionId='2' Name="TextColor"                              FontSize="40" />
-            <TextBlock x:ConnectionId='3'                              Margin="0,10,10,0"/>
-            <TextBlock x:ConnectionId='4'                             />
+                    HorizontalAlignment="Center">
+            <Image x:ConnectionId='2' Name="Logo"                                Width="100" Height="100" />
+            <TextBlock x:ConnectionId='3'                              Margin="0,10,10,0" Name="Color"/>
+            <TextBlock x:ConnectionId='4'                              Name="Price"/>
         </StackPanel>
     </StackPanel>
 </UserControl>

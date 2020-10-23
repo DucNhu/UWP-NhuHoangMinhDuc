@@ -10,11 +10,13 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid Background="LightBlue">
-
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*"></ColumnDefinition>
-            <ColumnDefinition Width="1*"></ColumnDefinition>
-            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
         
         <!--left-->
@@ -50,10 +52,10 @@
             </ComboBox>
 
         </StackPanel>
-        <Button Grid.Column="2" Name="NewContactButton"
+        <Button Grid.Row="2" Name="NewContactButton"
                     Click="NewContactButton_Click" Content="Add" Margin="100"/>
         <!--right-->
-        <GridView Grid.Row="1" ItemsSource="{x:Bind infors}" Margin="20" SelectionChanged="GridView_SelectionChanged">
+        <GridView Grid.RowSpan="5" Grid.Column="2" ItemsSource="{x:Bind infors}" Margin="20" SelectionChanged="GridView_SelectionChanged">
             <GridView.ItemTemplate>
                 <DataTemplate x:DataType="data:infor">
                     <local:Controler 

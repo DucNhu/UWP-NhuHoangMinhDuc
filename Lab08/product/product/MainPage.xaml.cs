@@ -43,7 +43,7 @@ namespace product
 
             prices.Add(new price { prices = "gray" });
 
-            logos.Add(new logo { logos = "gray" });
+            logos.Add(new logo { logos = "https://github.com/hungdaycb00/UWP-MH/blob/master/U41-Example1/U41-Example1/Assets/female-03.png?raw=true" });
 
             infors = new ObservableCollection<infor>();
 
