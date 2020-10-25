@@ -8,6 +8,8 @@ using UWPSoundBoard.Model;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
+using Windows.ApplicationModel.DataTransfer;
+using Windows.Storage;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
@@ -24,50 +26,59 @@ namespace UWPSoundBoard
     /// </summary>
     public sealed partial class MainPage : Page
     {
-        private ObservableCollection<sound> sounds;
+        private ObservableCollection<Sound> sounds;
         private List<String> Suggestions;
         private List<MenuItems> MenuItems;
         public MainPage()
         {
             this.InitializeComponent();
-            sounds = new ObservableCollection<sound>();
+            sounds = new ObservableCollection<Sound>();
             SoundManager.GetAllSounds(sounds);
 
             MenuItems = new List<MenuItems>();
-            MenuItems.Add(new MenuItem { Iconfile = "Assets/Icons/animals.png", CategoryTextBlock = SoundCategory.Animals });
-            MenuItems.Add(new MenuItem { Iconfile = "Assets/Icons/Cartoon.png", CategoryTextBlock = SoundCategory.Cartoons });
-            MenuItems.Add(new MenuItem { Iconfile = "Assets/Icons/taunt.png", CategoryTextBlock = SoundCategory.Taunts });
-            MenuItems.Add(new MenuItem { Iconfile = "Assets/Icons/waring.png", CategoryTextBlock = SoundCategory.Warnings });
+            MenuItems.Add(new MenuItems { IconFile = "Assets/Icons/animals.png", Category = SoundCategory.Animals });
+            MenuItems.Add(new MenuItems { IconFile = "Assets/Icons/Cartoon.png", Category = SoundCategory.Cartoons });
+            MenuItems.Add(new MenuItems { IconFile = "Assets/Icons/taunt.png", Category = SoundCategory.Taunts });
+            MenuItems.Add(new MenuItems { IconFile = "Assets/Icons/waring.png", Category = SoundCategory.Warnings });
         }
 
-        private void Backbutton_Click(object sender, RoutedEventArgs e)
+        private void HambergurButton_Click(object sender, RoutedEventArgs e)
         {
-            goBack();
+            MySplitView.IsPaneOpen = !MySplitView.IsPaneOpen;
         }
-
         private void SearchAutoSuggestBox_QuerySubmitted(AutoSuggestBox sender, AutoSuggestBoxQuerySubmittedEventArgs args)
         {
 
         }
+        private void SearchAutoSuggestBox_TextChanged(AutoSuggestBox sender, AutoSuggestBoxTextChangedEventArgs args)
+        {
 
-        private void goBack() {
+        }
+
+
+        private void Backbutton_Click(object sender, RoutedEventArgs e) { 
             SoundManager.GetAllSounds(sounds);
             CategoryTextBlock.Text = "All Sounds";
             MenuItemsListView.SelectedItem = null;
             BackButton.Visibility = Visibility.Collapsed;
         }
 
-        private void SearchAutoSuggestBox_QuerySubmitted(AutoSuggestBox sender, AutoSuggestBoxQuerySubmittedEventArgs args)
-        {
-            SoundManager.GetSoundsByName(sounds, sender.Text);
-            CategoryTextBlock.Text = sender.Text;
-            MenuItemsListView.SelectedItem = null;
-            BackButton.Visibility = Visibility.Visible;
-        }
-
         private void MenuItemsListView_ItemClick(object sender, ItemClickEventArgs e)
         {
             var menuItem = (MenuItems)e.ClickedItem;
+            CategoryTextBlock.Text = menuItem.Category.ToString();
+            SoundManager.GetSoundsByCategory(sounds, menuItem.Category);
+            BackButton.Visibility = Visibility.Visible;
+        }
+
+        private void SearchAutoSuggestBox_TextChanged(AutoSuggestBox sender, AutoSuggestBoxQuerySubmittedEventArgs args)
+        {
+        }
+
+        private void SoundGridView_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            var sound = (Sound)e.ClickedItem;
+            MyMediaElement.Source = new Uri(this.BaseUri, sound.Audiofile);
         }
 
     }

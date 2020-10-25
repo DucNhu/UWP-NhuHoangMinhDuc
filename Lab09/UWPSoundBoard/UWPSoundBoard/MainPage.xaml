@@ -32,7 +32,7 @@
                             QueryIcon="Find"
                             TextChanged="SearchAutoSuggestBox_TextChanged"
                             QuerySubmitted="SearchAutoSuggestBox_QuerySubmitted"
-                            RelativePanel.AlignRightWithPanel="true" />
+                            RelativePanel.AlignRightWithPanel="True" />
         </RelativePanel>
 
         <SplitView Grid.Row="1" Name="MySplitView" DisplayMode="CompactOverlay"
@@ -41,7 +41,7 @@
             <SplitView.Pane>
                 <ListView Name="MenuItemsListView" IsItemClickEnabled="True" ItemsSource="{x:Bind MenuItems}" ItemClick="MenuItemsListView_ItemClick">
                     <ListView.ItemTemplate>
-                        <DataTemplate x:DataType="data:MenuItem">
+                        <DataTemplate x:DataType="data:MenuItems">
                             <StackPanel Orientation="Horizontal">
                                 <Image Source="{x:Bind IconFile}" Height="35" Width="35" Margin="-10,10,0,10" />
                                 <TextBlock Text="{x:Bind Category}" />
@@ -58,10 +58,15 @@
                     </Grid.RowDefinitions>
                     <MediaElement Name="MyMediaElement" AutoPlay="True" />
                     <TextBlock Name="CategoryTextBlock" Text="All Sounds" FontSize="24" />
-                    <GridView Grid.Row="1" Name="SoundGridView" SelectionMode="None" 
-                              IsItemClickEnabled="True" ItemClick="SoundGridView_ItemClick" ItemsSource="{x:Bind sounds}">
+                    <GridView Grid.Row="1"
+                              Name="SoundGridView"
+                              SelectionMode="None" 
+                              ItemsSource="{x:Bind sounds}"
+                              IsItemClickEnabled="True"
+                              ItemClick="SoundGridView_ItemClick"
+                              >
                         <GridView.ItemTemplate>
-                            <DataTemplate x:DataType="data:sound">
+                            <DataTemplate x:DataType="data:Sound">
                                 <Image Name="MyImage" Height="112" Width="101" Source="{x:Bind ImageFile}" />
                             </DataTemplate>
                         </GridView.ItemTemplate>

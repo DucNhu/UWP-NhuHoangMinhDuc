@@ -6,22 +6,30 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace UWPSoundBoard.Model
-{
-    class SoundManager
+{   
+   
+    public class SoundManager
     {
-        public static void GetAllSounds(ObservableCollection<sound> sounds)
+        public static void GetAllSounds(ObservableCollection<Sound> sounds)
         {
             var allSounds = GetSounds();
             sounds.Clear();
             allSounds.ForEach(p => sounds.Add(p));
         }
-        private static List<sound> GetSounds()
+        private static List<Sound> GetSounds()
         {
-            var sounds = new List<sound>();
+            var sounds = new List<Sound>();
 
-            sounds.Add(new sound("Cow", SoundCategory.Animals));
-            sounds.Add(new sound("Cat", SoundCategory.Animals));
+            sounds.Add(new Sound("Cow", SoundCategory.Animals));
+            sounds.Add(new Sound("Cat", SoundCategory.Animals));
             return sounds;
+        }
+        public static void GetSoundsByCategory(ObservableCollection<Sound> sounds, SoundCategory soundCategory)
+        {
+            var allSounds = GetSounds();
+            var filteredSounds = allSounds.Where(p => p.Category == soundCategory).ToList();
+            sounds.Clear();
+            filteredSounds.ForEach(p => sounds.Add(p));
         }
     }
 }

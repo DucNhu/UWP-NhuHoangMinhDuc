@@ -9,14 +9,14 @@ using Windows.Media;
 
 namespace UWPSoundBoard.Model
 {
-    public class sound
+    public class Sound
     {
         public string Name { get; set; }
         public SoundCategory Category { get; set; }
         public string Audiofile { get; set; }
         public string ImageFile { get; set; }
 
-        public sound(string name, SoundCategory category)
+        public Sound(string name, SoundCategory category)
         {
             Name = name;
             Category = category;

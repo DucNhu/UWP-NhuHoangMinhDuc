@@ -122,7 +122,8 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Model\sound.cs" />
+    <Compile Include="Model\MenuItems.cs" />
+    <Compile Include="Model\Sound.cs" />
     <Compile Include="Model\SoundManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
