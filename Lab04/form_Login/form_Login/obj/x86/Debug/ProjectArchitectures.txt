@@ -1,1 +1,0 @@
-C:\Users\Pc\Documents\GitHub\UWP-NhuHoangMinhDuc\Lab04\form_Login\form_Login\form_Login.csproj;x86

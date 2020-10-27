@@ -1,1 +1,0 @@
-F:\UWP\Lab10\Lab10\Lab10.csproj;x86
